@@ -1,4 +1,4 @@
-<script>
+
     // Select the input field by its ID
     const inputField = document.getElementById('fname');
 
@@ -6,4 +6,4 @@
     inputField.addEventListener('blur', function() {
         inputField.value = inputField.value.toUpperCase();
     });
-</script>
+
