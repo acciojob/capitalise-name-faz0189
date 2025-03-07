@@ -1,1 +1,6 @@
-//your JS code here. If required.
+
+const inputfiled = document.getElementbyId('fname')
+
+inputfiled.addEventListener(function (){
+	inputfiled = inputfiledvalue.toUpperCase();
+});
