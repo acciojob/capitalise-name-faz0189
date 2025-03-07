@@ -1,9 +1,8 @@
+const inputfiled = documentgetElementByid('fname')
 
-    // Select the input field by its ID
-    const inputField = document.getElementById('fname');
+inputfiled.addEventListener('blur',function(){
+	inputfiled.value = inputfiled.value.toUpperCase();
+})
 
-    // Add an event listener for when the input loses focus (blur event)
-    inputField.addEventListener('blur', function() {
-        inputField.value = inputField.value.toUpperCase();
-    });
+
 
